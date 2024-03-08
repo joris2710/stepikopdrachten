@@ -1,3 +1,5 @@
+package Week4.Step3;
+
 public class Bankrekening {
     public Bankrekening (double saldo) {
         this.saldo = saldo;

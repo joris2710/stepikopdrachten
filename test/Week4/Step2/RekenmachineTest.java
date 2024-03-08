@@ -1,3 +1,6 @@
+package Week4.Step2;
+
+import Week4.Step2.Rekenmachine;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

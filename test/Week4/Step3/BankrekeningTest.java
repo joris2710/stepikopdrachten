@@ -1,3 +1,6 @@
+package Week4.Step3;
+
+import Week4.Step3.Bankrekening;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

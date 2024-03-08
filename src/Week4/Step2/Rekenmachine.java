@@ -1,3 +1,5 @@
+package Week4.Step2;
+
 public class Rekenmachine {
     public int optellen(int getal1, int getal2) {
         return getal1 + getal2;

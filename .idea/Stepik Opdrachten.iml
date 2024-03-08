@@ -11,6 +11,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Lesweek 4/Step 4/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Lesweek 4/Step 5/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesweek 4/Step 5/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesweek 5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesweek 6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -25,6 +29,15 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/24.0.0/annotations-24.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
