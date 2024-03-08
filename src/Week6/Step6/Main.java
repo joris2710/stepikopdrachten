@@ -38,7 +38,6 @@ class Speler implements Character{
     public void valAan(Character doelwit){
         if (gameOver){
             System.out.println("Deze speler kan niet aanvallen, want deze speler is al game over!");
-            return;
         } else {
             doelwit.krijgSchade(wapen.schade);
         }
@@ -47,7 +46,6 @@ class Speler implements Character{
     public void krijgSchade(int schade){
         if (hp - schade <= 0){
             gameOver();
-            return;
         } else {
             this.hp =- schade;
             System.out.println("Speler " + naam + " heeft " + schade + " schade gekregen!");
@@ -55,9 +53,9 @@ class Speler implements Character{
     }
     @Override
     public void printInformatie(){
-        System.out.println("Speler: " + naam);
+        System.out.println("Speler: " + getNaam());
         System.out.println("Game over: " + gameOver);
-        System.out.println("Hoeveelheid HP: " + hp);
+        System.out.println("Hoeveelheid HP: " + getHP());
     }
 
 }
