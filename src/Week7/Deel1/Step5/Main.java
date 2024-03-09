@@ -1,4 +1,4 @@
-package Week7.Step4;
+package Week7.Deel1.Step5;
 
 abstract class Game {
     public String naam;

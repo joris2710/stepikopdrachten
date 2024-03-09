@@ -1,4 +1,4 @@
-package Week7.Step6;
+package Week7.Deel1.Step6;
 
 import java.util.ArrayList;
 
